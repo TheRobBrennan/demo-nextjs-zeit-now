@@ -7,7 +7,7 @@ This project is meant to serve as a starting point to explore creating [React](h
 To start the application, simply run:
 
 ```sh
-$ npm run dev
+$ npm start
 ```
 
 Your Next.js application will be available at [http://localhost:3000/](http://localhost:3000/)
@@ -16,8 +16,9 @@ Your Next.js application will be available at [http://localhost:3000/](http://lo
 
 The following scripts are included for convenience:
 
-+ `dev` - Starts Next.js in development mode
-+ `start` - Starts Next.js in production mode
++ `start` - Starts ZEIT Now in development mode
+  + Front-end code available at [http://localhost:3000/](http://localhost:3000/)
+  + Back-end API available at [http://localhost:3000/api/](http://localhost:3000/api/)
 + `build` - Builds the current Next.js application
 + `export` - Exports Next.js as a static site if desired
 
