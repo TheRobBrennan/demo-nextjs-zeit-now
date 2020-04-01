@@ -6,9 +6,8 @@
   "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
   "license": "ISC",
   "scripts": {
-    "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "now dev",
     "export": "next export"
   },
   "repository": {
