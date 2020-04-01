@@ -1,0 +1,16 @@
+{
+  "name": "demo-nextjs-zeit-now",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "Rob Brennan <rob@therobbrennan.com> (therobbrennan.com)",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheRobBrennan/demo-nextjs-zeit-now.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TheRobBrennan/demo-nextjs-zeit-now/issues"
+  },
+  "homepage": "https://github.com/TheRobBrennan/demo-nextjs-zeit-now#readme"
+}
