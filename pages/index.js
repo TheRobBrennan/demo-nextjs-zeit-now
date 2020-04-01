@@ -4,5 +4,5 @@ import { dependencies } from '../package.json'
 const { next: version } = dependencies
 
 export default () => {
-  return <h1>Next.js {version} is ready. Enjoy.</h1>
+  return <h1>Next.js {version} is ready. Enjoy!</h1>
 }
