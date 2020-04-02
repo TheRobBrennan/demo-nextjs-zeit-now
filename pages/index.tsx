@@ -1,7 +1,6 @@
 // Core layout and Next.js
 import { NextPage } from 'next'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 
 // Retrieve the currently installed version of Next.js
 import { dependencies } from '../package.json'
@@ -19,7 +18,6 @@ const HelloQuery = gql`
 `
 
 const IndexPage: NextPage = () => {
-  const router = useRouter()
   // TODO: Eventually use loading and error constants, too 🤓
   const { data } = useQuery(HelloQuery)
 
