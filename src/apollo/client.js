@@ -1,3 +1,5 @@
+// This Apollo client will not be refactored to a TypeScript file
+// Original source - https://github.com/zeit/next.js/blob/canary/examples/api-routes-apollo-server-and-client-auth/apollo/client.js
 import React from 'react'
 import Head from 'next/head'
 import { ApolloProvider } from '@apollo/react-hooks'
