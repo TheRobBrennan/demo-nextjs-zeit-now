@@ -24,6 +24,10 @@ The following scripts are included for convenience:
 
 ## Third party services
 
+### Google Analytics
+
+This project has been configured to use [Google Analytics](http://analytics.google.com).
+
 ### ZEIT Now
 
 This project has been configured to automatically deploy to [ZEIT Now](https://zeit.co/) - available at [https://demo-nextjs-zeit-now.now.sh](https://demo-nextjs-zeit-now.now.sh) - using the [ZEIT Now for GitHub](https://zeit.co/github) integration.
