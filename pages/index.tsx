@@ -26,7 +26,7 @@ const IndexPage: NextPage = () => {
       <>
         <h1>Next.js {version} is ready. Enjoy.</h1>
         <pre>{JSON.stringify(data, null, 2)}</pre>
-        <Link href='/test'>Test</Link>
+        <Link href='/test'><a>Test</a></Link>
       </>
     )
   }
@@ -34,7 +34,7 @@ const IndexPage: NextPage = () => {
   return (
     <>
       <h1>Next.js {version} is ready. Enjoy.</h1>
-      <Link href='/test'>Test</Link>
+      <Link href='/test'><a>Test</a></Link>
     </>
   )
 }
