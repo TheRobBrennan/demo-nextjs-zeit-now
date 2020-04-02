@@ -1,5 +1,5 @@
 // Core layout and Next.js
-import Layout from '../src/layout/Layout'
+import { NextPage } from 'next'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -18,26 +18,26 @@ const HelloQuery = gql`
   }
 `
 
-const IndexPage = () => {
+const IndexPage: NextPage = () => {
   const router = useRouter()
   // TODO: Eventually use loading and error constants, too 🤓
   const { data } = useQuery(HelloQuery)
 
   if (data) {
     return (
-      <Layout>
+      <>
         <h1>Next.js {version} is ready. Enjoy.</h1>
         <pre>{JSON.stringify(data, null, 2)}</pre>
         <Link href='/test'>Test</Link>
-      </Layout>
+      </>
     )
   }
 
   return (
-    <Layout>
+    <>
       <h1>Next.js {version} is ready. Enjoy.</h1>
       <Link href='/test'>Test</Link>
-    </Layout>
+    </>
   )
 }
 export default withApollo(IndexPage)
