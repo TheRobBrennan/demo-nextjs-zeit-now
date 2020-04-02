@@ -1,3 +1,5 @@
+// This Apollo client will not be refactored to a TypeScript file
+// Original source - https://github.com/zeit/next.js/blob/canary/examples/with-google-analytics/pages/_document.js
 import React from 'react'
 import Document, { Head, Main, NextScript } from 'next/document'
 
